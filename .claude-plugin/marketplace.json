@@ -1,0 +1,14 @@
+{
+  "name": "gastaomatos",
+  "owner": {
+    "name": "Gastão Matos",
+    "url": "https://instagram.com/gastaomatos"
+  },
+  "plugins": [
+    {
+      "name": "squad-builder",
+      "source": "./plugins/squad-builder",
+      "description": "Monta squads de agentes de IA completos de forma autônoma: arquitetura, agentes especialistas, skills e infraestrutura."
+    }
+  ]
+}
