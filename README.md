@@ -9,13 +9,13 @@ Criado por [@gastaomatos](https://instagram.com/gastaomatos).
 No Claude Code, rode:
 
 ```
-/plugin marketplace add gastaomatos/squad-builder-marketplace
+/plugin marketplace add drtrafego/squad-builder-marketplace
 /plugin install squad-builder
 ```
 
-> Troque `gastaomatos/squad-builder-marketplace` pelo caminho real do repositório no GitHub (usuário/repo) depois de publicar.
-
 Reinicie o Claude Code se a skill não aparecer de imediato.
+
+Também dá pra baixar a skill direto em ZIP: [squad-builder-marketplace (main.zip)](https://github.com/drtrafego/squad-builder-marketplace/archive/refs/heads/main.zip)
 
 ## Como usar
 
@@ -41,6 +41,6 @@ squad-builder-marketplace/
 
 ## Publicar (para o autor)
 
-1. Suba esta pasta num repositório público no GitHub (ex: `gastaomatos/squad-builder-marketplace`).
+1. Suba esta pasta num repositório público no GitHub (ex: `drtrafego/squad-builder-marketplace`).
 2. Compartilhe os dois comandos de instalação acima com quem for usar.
 3. Para atualizar a skill, edite o `SKILL.md`, faça commit e os usuários recebem na próxima atualização.
