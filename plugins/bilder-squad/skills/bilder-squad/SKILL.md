@@ -1,9 +1,9 @@
 ---
-name: mestre-squad-builder
+name: bilder-squad
 description: Cria autonomamente a estrutura completa de squads multi-agente para Claude Code, arquitetura, infraestrutura, filosofia de experiência e organização operacional, sem o usuário precisar pedir cada peça.
 ---
 
-# Squad Builder, Construção Autônoma de Sistemas Multi-Agente
+# Bilder Squad, Construção Autônoma de Sistemas Multi-Agente
 
 ## Missão
 

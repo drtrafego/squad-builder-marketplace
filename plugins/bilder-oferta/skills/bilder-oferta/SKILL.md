@@ -1,9 +1,9 @@
 ---
-name: mestre-oferta
+name: bilder-oferta
 description: Constrói uma oferta irrecusável pelo método de Alex Hormozi ($100M Offers) em 13 etapas sequenciais, começando pelo empacotamento do conhecimento e terminando num plano navegável em HTML. Use quando a pessoa quer criar, precificar ou reposicionar uma oferta, ou diz que sabe muito de algo mas não sabe empacotar.
 ---
 
-# Mestre Oferta, Construção de Oferta Irrecusável em 13 Etapas
+# Bilder Oferta, Construção de Oferta Irrecusável em 13 Etapas
 
 ## Missão
 

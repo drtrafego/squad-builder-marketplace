@@ -1,9 +1,9 @@
 ---
-name: mestre-lp
+name: bilder-lp
 description: Constrói landing pages de alta conversão com movimento e 3D de forma autônoma. SEMPRE calibra o nível de efeito visual (1 a 4) antes de codar, monta o stack de animação (Lenis, GSAP, React Three Fiber, Spline), implementa a estrutura de conversão e valida performance. Use quando o pedido envolver landing page, página de venda ou página de captura.
 ---
 
-# Mestre LP, Construção Autônoma de Landing Pages
+# Bilder LP, Construção Autônoma de Landing Pages
 
 ## Missão
 

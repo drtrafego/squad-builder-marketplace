@@ -6,28 +6,28 @@
   },
   "plugins": [
     {
-      "name": "squad-builder",
-      "source": "./plugins/squad-builder",
+      "name": "bilder-squad",
+      "source": "./plugins/bilder-squad",
       "description": "Monta squads de agentes de IA completos de forma autônoma: arquitetura, agentes especialistas, skills e infraestrutura."
     },
     {
-      "name": "lp-builder",
-      "source": "./plugins/lp-builder",
+      "name": "bilder-lp",
+      "source": "./plugins/bilder-lp",
       "description": "Constrói landing pages de alta conversão com movimento e 3D: calibra o nível de efeito visual (1 a 4) antes de codar e valida performance."
     },
     {
-      "name": "oferta-builder",
-      "source": "./plugins/oferta-builder",
+      "name": "bilder-oferta",
+      "source": "./plugins/bilder-oferta",
       "description": "Constrói uma oferta irrecusável pelo método Hormozi em 13 etapas sequenciais, com plano final navegável em HTML."
     },
     {
-      "name": "conteudo-builder",
-      "source": "./plugins/conteudo-builder",
+      "name": "bilder-conteudo",
+      "source": "./plugins/bilder-conteudo",
       "description": "Fábrica de carrosséis animados pra Instagram: copy com hook, cards em HTML com GSAP e render automático em vídeo."
     },
     {
-      "name": "mcp-builder",
-      "source": "./plugins/mcp-builder",
+      "name": "bilder-mcp",
+      "source": "./plugins/bilder-mcp",
       "description": "Constrói servidores MCP em TypeScript pra conectar a IA em qualquer API externa, com schemas Zod e regras de segurança."
     }
   ]

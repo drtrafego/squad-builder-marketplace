@@ -1,9 +1,9 @@
 ---
-name: mestre-mcp
+name: bilder-mcp
 description: Constrói um servidor MCP (Model Context Protocol) em TypeScript que expõe qualquer API externa como ferramentas nativas do Claude, com transporte stdio e HTTP, schemas Zod e regras de segurança pra escrita. Use quando a pessoa quer que a IA opere uma API de verdade (ads, CRM, ERP, sistema interno) em vez de só falar sobre ela.
 ---
 
-# Mestre MCP, Conecte a IA em Qualquer API
+# Bilder MCP, Conecte a IA em Qualquer API
 
 ## Missão
 

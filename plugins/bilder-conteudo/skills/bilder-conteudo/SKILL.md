@@ -1,9 +1,9 @@
 ---
-name: mestre-conteudo
+name: bilder-conteudo
 description: Monta uma fábrica de carrosséis animados pra Instagram e produz carrosséis completos nela: estrutura de copy com hook, sistema visual consistente, cada card como HTML animado com GSAP, render automático em MP4 via navegador headless e ffmpeg, mais legenda pronta. Use quando o pedido envolver carrossel, conteúdo pra Instagram ou produção recorrente de posts.
 ---
 
-# Mestre Conteúdo, Fábrica de Carrosséis Animados
+# Bilder Conteúdo, Fábrica de Carrosséis Animados
 
 ## Missão
 
