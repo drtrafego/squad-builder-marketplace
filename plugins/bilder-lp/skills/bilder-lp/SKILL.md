@@ -71,6 +71,25 @@ Um CTA por página (repetido, não concorrente). Uma ideia por seção. Benefíc
 5. Fontes via `next/font`, nunca link externo no head
 6. Meta: Lighthouse 90+ em performance, LCP abaixo de 2.5s
 
+## Arsenal de efeitos modernos (use com propósito)
+
+Repertório de site premiado, cada um com seu momento. Máximo 1 efeito assinatura por seção (hero pode ter 2):
+- **Scroll storytelling** (nível 3+): seção com pin + scrub (conteúdo evolui com o scroll), sticky stacking cards, parallax de camadas sutil (10 a 20% de diferença), texto que acende palavra por palavra no scroll
+- **Texto cinético** (nível 2+): título com reveal por palavras em stagger, contadores de prova social ao entrar no viewport, marquee infinito de logos
+- **Hero vivo**: mesh gradient animado, partículas discretas, spotlight que segue o cursor, grain/noise overlay (tira a cara de template)
+- **3D** (nível 3 e 4): objeto com parallax de mouse, cena Spline embedada, tilt 3D em cards, câmera viajando no scroll (nível 4, custo alto)
+- **Micro-interações**: magnetic button (desktop), reveal por clip-path, glow que segue o cursor em cards, easing expressivo (expo.out em entradas, nunca linear)
+
+Regras do arsenal: todo efeito de scroll funciona TAMBÉM parado (estado inicial legível); mobile recebe a versão calma; `prefers-reduced-motion` desacelera movimento decorativo em vez de zerar.
+
+## CRO depois de publicada (onde a conversão de verdade acontece)
+
+- **Hierarquia de teste** (alavancagem decrescente): 1 oferta, 2 headline, 3 prova social, 4 CTA, 5 layout/cor. Nunca dois níveis ao mesmo tempo; sem ~1.000 visitas por variante, iteração sequencial em períodos comparáveis em vez de A/B
+- **A dobra mobile**: em 375px SEM scroll precisam aparecer promessa, pra quem é, CTA e 1 elemento de confiança. CTA fora da dobra do celular = página quebrada por definição
+- **Formulário**: mínimo de campos que a operação realmente usa (cada campo derruba conversão); validação inline; teclado numérico pra telefone
+- **Velocidade é conversão**: LCP acima de 4s em 4G = refazer o hero antes de discutir qualquer outro teste
+- **Tracking mínimo**: evento de conversão conferido ANTES do tráfego subir, UTMs preservadas até o destino, scroll depth como diagnóstico
+
 ## Anti-padrões (rejeite mesmo se pedirem, explicando por que)
 
 - Loader inicial gigante "estilo agência": mata SEO e LCP

@@ -1,6 +1,6 @@
 {
   "name": "bilder-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Skill que constrói servidores MCP (Model Context Protocol) em TypeScript pra conectar a IA em qualquer API externa: design de ferramentas, schemas Zod, transporte stdio e HTTP, e regras de segurança pra operações de escrita.",
   "author": {
     "name": "Gastão Matos",

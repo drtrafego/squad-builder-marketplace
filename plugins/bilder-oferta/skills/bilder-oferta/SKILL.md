@@ -43,6 +43,18 @@ Resolve o problema mais comum: "tenho conhecimento demais e não sei o que empac
 
 Ao final de CADA etapa: apresente o entregável, pergunte se ajusta ou segue, e só então avance.
 
+## Nível de consciência do avatar (calibra promessa e funil)
+
+Defina na etapa 1 e propague: o avatar é inconsciente do problema, consciente do problema, consciente da solução, consciente do produto ou totalmente consciente? Público inconsciente exige funil mais longo (conteúdo que revela o problema antes da oferta); público totalmente consciente aceita oferta direta. Erro comum: oferta desenhada pra nível 4 anunciada pra público nível 2, e a culpa cai injustamente no tráfego.
+
+## Validação barata (antes de investir pesado)
+
+Entre o plano e o lançamento em escala, valide com o menor custo possível:
+1. **Teste de conversa**: ofereça pra 10 pessoas do perfil do avatar em conversa direta (DM, WhatsApp). 3+ com disposição real de pagar = sinal verde; zero = revisitar dor ou promessa antes de gastar em tráfego
+2. **Pré-venda**: venda ANTES de construir tudo (lote fundador com desconto e transparência). Dinheiro na mesa é a única validação que não mente
+3. **Sinais que NÃO validam**: curtidas, "que legal", "eu compraria" sem cartão
+4. Só depois do sinal verde escalar pra tráfego pago, com meta de CAC baseada no preço da etapa 8
+
 ## Consolidação final, o plano navegável
 
 Gere um arquivo `plano.html` autocontido com:

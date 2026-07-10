@@ -72,6 +72,18 @@ carrosseis/nome-do-carrossel/
 
 4. Informe: ordem de postagem, qual arquivo é a capa, e lembre que o Instagram aceita mistura de vídeo e imagem no mesmo carrossel
 
+## Loop de performance (a fábrica melhora com os números)
+
+Depois que os carrosséis rodam, feche o ciclo antes de produzir o próximo lote:
+1. **Métricas na ordem certa**: alcance de não-seguidores (o hook do card 1 funcionou?) → salvamentos e compartilhamentos (o conteúdo vale guardar?) → seguidores ganhos (deu motivo pra seguir?) → cliques/DMs no CTA
+2. **Card 1 é 80% do jogo**: alcance baixo = problema no hook, não no conteúdo. Iterar o hook do tema que falhou antes de abandonar o tema
+3. **Duplicar o vencedor com variação**: tema que performou vira série (mesma promessa, ângulos novos), nunca post órfão
+4. **Registrar o padrão**: manter um arquivo de aprendizados (hooks que funcionaram, formatos, temas) que alimenta os próximos lotes
+
+## Séries como sistema (consistência vence viral)
+
+Todo perfil que a fábrica atende deve ter 1 a 3 SÉRIES recorrentes com nome e formato fixos (ex: "Dicionário de IA, parte N", "Erro da semana"). Série cria expectativa, facilita produção em lote e converte visitante em seguidor melhor que post avulso. Ao montar a fábrica pra um perfil novo, proponha as séries ANTES do primeiro carrossel avulso.
+
 ## Regras finais
 
 - Uma ideia por card, um CTA por carrossel

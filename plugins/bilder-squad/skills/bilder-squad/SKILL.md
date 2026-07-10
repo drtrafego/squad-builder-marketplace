@@ -153,6 +153,16 @@ Todo squad com conhecimento por cliente/projeto ganha `_compartilhado/` e a regr
 3. **Smoke test real.** Se o ambiente permitir, spawne 1 agente com uma tarefa mínima e confirme que responde no formato contratado.
 4. **Checagem de idioma.** Grep por palavras sem acento comuns (nao, voce, ja, esta) nos arquivos gerados em português.
 
+## Erros comuns de squad (verifique antes de entregar)
+
+Os defeitos que mais aparecem em squad recém-construído:
+1. **Orquestrador que executa**: se o CLAUDE.md do orquestrador tem instrução de COMO fazer a tarefa (em vez de a quem delegar), vazou responsabilidade
+2. **Agentes gêmeos**: dois agentes que disputam o mesmo pedido (descriptions sobrepostas). Teste: leia só as descriptions e roteie 5 pedidos; qualquer empate = reescrever
+3. **Regra adjetiva**: "seja detalhista", "faça um bom trabalho" não instruem nada. Toda regra importante tem número, formato ou critério verificável
+4. **Agente enciclopédia**: prompt de 500 linhas cobrindo tudo por precaução. Prompt longo de conhecimento que NUNCA é usado só paga imposto de contexto: conhecimento raro vai pra skill/arquivo consultável, não pro prompt
+5. **Hierarquia declarada mas não aplicada**: o CLAUDE.md diz "em sequência" mas nenhum agente sabe QUEM alimenta ele nem O QUE entregar pro próximo. Cada agente declara seu lugar no fluxo
+6. **Cliente hardcoded**: dado de cliente específico dentro do prompt genérico. Dado de cliente vive em arquivo de cliente
+
 ## Manual final obrigatório
 
 Sempre entregue ao fim: arquitetura final, fluxo do sistema (desenho em texto com dependências), agentes criados, skills criadas, variáveis necessárias, comandos de execução, custo estimado por rodada típica (modelo × volume), próximos passos e checklist de configuração.

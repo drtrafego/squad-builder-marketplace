@@ -60,6 +60,21 @@ Adicionar API nova = pasta nova em tools/ + registro no índice. O cliente HTTP 
 3. Ferramentas de ESCRITA depois, com as regras de segurança acima
 4. Log de toda chamada (ferramenta, parâmetros sem dados sensíveis, duração, sucesso ou erro)
 
+## Economia de contexto (output é orçamento, não lixeira)
+
+A resposta de cada ferramenta entra no contexto do modelo; ferramenta que despeja JSON gigante degrada o agente inteiro:
+- **Paginação obrigatória** em toda ferramenta de listagem: parâmetro `limit` (default 10 a 25) + cursor/offset, e o retorno avisa quando há mais ("mostrando 25 de 312")
+- **Campos selecionados**: devolver os 5 a 10 campos que importam pro caso de uso; o resto só sob parâmetro explícito (`detailed: true`)
+- **Resumos server-side**: pra análise, prefira uma ferramenta `resumo_de_X` que agrega no servidor a devolver 500 linhas cruas pro modelo somar
+- **Truncar com aviso** valores de texto longos (descrições, HTML), nunca silenciosamente
+
+## Evolução sem quebrar (o MCP vai crescer)
+
+- **Nunca renomear ferramenta nem remover parâmetro** em uso: agentes e prompts alheios dependem do nome. Precisou mudar a assinatura: cria a nova, marca a antiga como deprecated na description ("prefira X"), remove numa versão futura
+- **Versionar o servidor** (semver no package.json) e manter um CHANGELOG curto: quem instala precisa saber o que mudou
+- **Parâmetro novo sempre opcional** com default sensato (não quebra chamada existente)
+- Ferramenta que ninguém chama em semanas é candidata a remoção: menos ferramentas = roteamento melhor
+
 ## Fase 4, Conexão e validação (obrigatória)
 
 1. Build sem erros
