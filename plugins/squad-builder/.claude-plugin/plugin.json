@@ -1,6 +1,6 @@
 {
   "name": "squad-builder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Skill que constrói squads multi-agente completos para Claude Code de forma autônoma: detecta contexto, projeta a arquitetura, cria os agentes especialistas, define o fluxo e monta toda a infraestrutura.",
   "author": {
     "name": "Gastão Matos",
