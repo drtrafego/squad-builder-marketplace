@@ -1,0 +1,10 @@
+{
+  "name": "conteudo-builder",
+  "version": "1.0.0",
+  "description": "Skill que monta uma fábrica de carrosséis animados pra Instagram: copy com hook, sistema visual consistente, cards em HTML com animação GSAP e render automático em vídeo via navegador headless e ffmpeg.",
+  "author": {
+    "name": "Gastão Matos",
+    "url": "https://instagram.com/gastaomatos"
+  },
+  "keywords": ["instagram", "carrossel", "conteudo", "gsap", "video"]
+}

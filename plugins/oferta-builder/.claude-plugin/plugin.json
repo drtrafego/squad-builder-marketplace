@@ -1,0 +1,10 @@
+{
+  "name": "oferta-builder",
+  "version": "1.0.0",
+  "description": "Skill que constrói uma oferta irrecusável pelo método Hormozi em 13 etapas sequenciais: do empacotamento do conhecimento até o plano de operação, com plano final navegável em HTML.",
+  "author": {
+    "name": "Gastão Matos",
+    "url": "https://instagram.com/gastaomatos"
+  },
+  "keywords": ["oferta", "hormozi", "marketing", "vendas", "posicionamento"]
+}
